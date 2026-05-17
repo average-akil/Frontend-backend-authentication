@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "grep": "^0.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
+}
